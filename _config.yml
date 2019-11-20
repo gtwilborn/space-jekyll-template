@@ -1,11 +1,11 @@
 # Site settings
 title: Lorem Ipsum - Web Developer
 description: "A blog about lorem ipsum ..."
-baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-template' to ''
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
 url: "http://gtwilborn.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
-username: lorem ipsum
+username: Test_TESTING
 user_title: Lorem Ipsum - FrontEnd
 email: lorem.lorem@ipsum.com
 twitter_username: loremipsum
@@ -30,19 +30,19 @@ compress_html:
 # Links to include in menu navigation
 links:
   section_1:
-    - title: home
+    - title: lang 1
       url: /
       key_trigger: 1
-    - title: my posts
+    - title: lang 2
       url: /posts
       key_trigger: 2
-    - title: series
+    - title: lang 3
       url: /series
       key_trigger: 3
-    - title: tags
+    - title: lang 4
       url: /tags
       key_trigger: 4
-    - title: about me
+    - title: lang 5
       url: /about
       key_trigger: 5
   section_2:
@@ -59,11 +59,11 @@ links:
 
 # projects in header index
 projects:
-  - name: fluany
+  - name: CODE
     url: https://github.com/fluany/fluany
-  - name: vim-frontend
+  - name: programming language 3
     url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
+  - name: programming language 1
     url: https://github.com/victorvoid/generator-capybara 
 
 # exclude my node related stuff
